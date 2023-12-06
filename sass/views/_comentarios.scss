@@ -1,0 +1,46 @@
+.Inicio-comen{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-family: 'Nova Square', sans-serif;
+    font-size: $font-medium;
+}
+
+
+.link-comen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Nova Square', sans-serif;
+    font-size: $font-xl;
+    gap: 10rem;
+    padding: 5rem;
+}
+
+
+section.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500rem;
+}
+
+.input-group {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.input-group-text {
+    background-color: rgb(179, 177, 177);
+    color: #333;
+    font-size: 2rem;
+    font-family: 'Nova Square', sans-serif;
+
+}
+
+.form-control {
+    border-radius: 40px;
+}

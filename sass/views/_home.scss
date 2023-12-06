@@ -1,0 +1,90 @@
+.Inicio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: $font-medium;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    font-size: $font-xxl;
+    margin-top: 3rem;
+
+}
+
+
+
+.foto-bro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    justify-content: center;
+
+  
+    p {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 3rem;
+        margin-top: 4rem;
+        
+    }
+}
+
+
+  .br {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5rem;
+        box-shadow: 7px 10px 20px 0px black;
+        flex: 0 0 30%;
+
+    }
+
+
+
+
+
+
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $font-xl;
+    justify-content: center;
+    gap: 10rem;
+}
+
+
+hr{
+    margin-top: 3rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    article{
+        display: flex;
+        justify-content: center;
+        font-size: $font-medium;
+        margin-bottom: 2rem;
+    }
+    nav{
+        display: flex;
+        font-size: $font-xl;
+        text-decoration: none;
+        justify-content: center;
+        gap: 5rem;
+    }
+    
+
+}

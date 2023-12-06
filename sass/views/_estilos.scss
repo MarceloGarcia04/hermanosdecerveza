@@ -1,0 +1,43 @@
+.position {
+    position:sticky;
+    top: 10px;
+    z-index: 10;
+}
+
+.link-1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $font-xl;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+article {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    img {
+    display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+        height: 28%;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+    p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0;
+        font-size: $font-medium;
+    }
+
+}

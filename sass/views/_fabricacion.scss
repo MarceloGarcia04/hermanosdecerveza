@@ -1,0 +1,56 @@
+.fabricacion-preceso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 15rem;
+
+    .fabricacion,
+
+
+
+
+    .proceso {
+        width: 45%;
+        padding: 20px;
+        margin: 10px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+}
+
+.fabricacion img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 8rem;
+    box-shadow: 7px 10px 20px 0px black;
+}
+
+
+.proceso {
+    h2 {
+        margin-top: 0;
+        font-size: $font-xxl;
+        margin-bottom: 2rem;
+    }
+
+    li {
+        margin-bottom: 3rem;
+    }
+
+
+    h3 {
+        font-size: $font-medium;
+    }
+
+}
+
+.imagen-hervor-embotellado {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+  
+}
